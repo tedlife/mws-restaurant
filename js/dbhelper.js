@@ -8,8 +8,8 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-    const port = 8000 // Change this to your server port
-    return `http://localhost:${port}/data/restaurants.json`;
+    const host = 'https://tedlife.github.io/mws-restaurant' // Change this to your server url
+    return `${host}/data/restaurants.json`;
   }
 
   /**
