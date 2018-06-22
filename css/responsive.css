@@ -1,0 +1,16 @@
+@media screen and (max-width: 786px) {
+
+  #breadcrumb, .inside #map-container, #restaurant-container, #reviews-container, .inside #footer, #reviews-list li {
+    width: 100%;
+  }
+
+  #maincontent {
+    padding-top: 400px;
+  }
+
+  .inside #map-container {
+    position: absolute;
+    height: 400px;
+    margin-top: 50px;
+  }
+}
